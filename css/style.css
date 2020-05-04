@@ -1,0 +1,40 @@
+body {
+  padding-top: 70px;
+}
+.ms_section-primary {
+  background: #1abc9c;
+  color: #FFF;
+}
+.ms_section-secondary {
+  background: #2c3e50;
+}
+/* components */
+.ms_navbar {
+  background: #2c3e50;
+  height: 70px;
+}
+
+.ms_jumbotrom {
+  background: #1abc9c;
+  text-align: center;
+  color: #fff;
+  padding: 32px 0;
+}
+
+/* portfolio */
+.ms_portfolio {
+  text-align: center;
+}
+.ms_portfolio-item {
+  background: #ba4b63;
+  height: 300px;
+  border-radius: 10px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .ms_jumbotrom {
+    padding: 48px 0;
+  }
+}
