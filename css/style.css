@@ -1,10 +1,17 @@
+/* General rulez */
 body {
   padding-top: 70px;
 }
 h1 {
   font-size: 60px;
 }
-
+h2 {
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+}
+/* end General rulez */
 /* components */
 .ms_divider {
   margin: 15px;
@@ -72,6 +79,24 @@ main .ms_portfolio-item img {
   border-radius: 10px;
 }
 /* end portfolio */
+
+/* about */
+.ms_button {
+  background: #1abc9c;
+  color: #fff;
+  border: 1 solid #fff;
+  font-size: 20px;
+  margin: 20px 0;
+}
+/* end about */
+
+/* form */
+.ms_form {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  margin: 10px 0;
+}
+/* end  form */
 /* end Main */
 
 /* Footer */
@@ -80,7 +105,7 @@ footer {
   text-align: center;
 }
 footer .footer_section {
-  padding: 40px 0
+  padding: 40px 0;
 }
 footer .company_info {
   background: #3a546c;
@@ -88,11 +113,14 @@ footer .company_info {
 footer .company_credits {
   background: #2c3e50;
   margin-bottom: 30px;
+  font-size: 15px;
+}
+footer .company_credits p {
+  font-size: 15px;
 }
 
 footer .ms_menu li {
   display: inline-block;
-  line-height:
   font-size: 20px;
   height: 50px;
   width: 50px;
@@ -103,9 +131,8 @@ footer .ms_menu li {
 footer .link {
   color: #1abc9c;
 }
+
 /* end Footer */
-
-
 
 
 @media screen and (max-width: 768px) {
