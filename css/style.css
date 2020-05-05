@@ -1,56 +1,84 @@
 body {
   padding-top: 70px;
 }
+h1 {
+  font-size: 60px;
+}
+
+/* components */
+.ms_divider {
+  margin: 15px;
+  font-size: 2.1em;
+}
+.ms_divider::after,
+.ms_divider::before {
+  content: " ";
+  display: inline-block;
+  width: 160px;
+  height: 4px;
+  background: #fff;
+  position: relative;
+  top: -10px;
+  border-radius: 5px;
+}
+.ms_divider.blue::after,
+.ms_divider.blue::before {
+  background: #2c3e50;
+}
+.ms_section-primary,
+.ms_section-secondary {
+  padding: 32px 0;
+  text-align: center;
+}
+.ms_section-primary {
+  background: #1abc9c;
+  color: #fff;
+}
+.ms_section-secondary {
+  background: #fff;
+  color: #2c3e50;
+}
+.wrapper_70 {
+  max-width: 992px;
+  width: 65%;
+  margin: 0 auto;
+}
+/* end components */
 
 /* Header */
-.primary_nav {
+header .primary_nav {
   background: #2d3e50;
   color: white;
   line-height: 80px;
 }
+header .burger_menu {
+  font-size: 30px;
+}
 /* end Header */
 
 /* Main */
-.ms_section-primary {
-  background: #1abc9c;
-  color: #FFF;
-}
-.ms_section-secondary {
-  background: #2c3e50;
-}
-/* components */
-
-
-.ms_jumbotrom {
-  background: #1abc9c;
-  text-align: center;
-  color: #fff;
-  padding: 32px 0;
+main .avatar img {
+  height: 300px;
 }
 
 /* portfolio */
-.ms_portfolio {
-  text-align: center;
-}
-.ms_portfolio-item {
-  background: #ba4b63;
+main .ms_portfolio-item {
   height: 300px;
-  border-radius: 10px;
   margin-bottom: 20px;
 }
-/* end portfolio */
-
-/* About */
-.ms_about {
-  
-  text-align: center;
-  background: #1abc9c;
-  color: #fff;
+main .ms_portfolio-item img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
-
-/* end About */
+/* end portfolio */
+/* end Main */
 
 /* Footer */
+footer {
+  color: white;
+  text-align: center;
+}
 footer .footer_section {
   padding: 40px 0
 }
@@ -59,24 +87,30 @@ footer .company_info {
 }
 footer .company_credits {
   background: #2c3e50;
-  color: white;
   margin-bottom: 30px;
-
 }
 
-.wrapper_70 {
-  max-width: 992px;
-  width: 65%;
-  margin: 0 auto;
-
+footer .ms_menu li {
+  display: inline-block;
+  line-height:
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid white
 }
+footer .link {
+  color: #1abc9c;
+}
+/* end Footer */
 
 
 
 
-
-@media screen and (min-width: 768px) {
-  .ms_jumbotrom {
-    padding: 48px 0;
+@media screen and (max-width: 768px) {
+  .ms_divider::after,
+  .ms_divider::before  {
+    width: 80px;
   }
 }
