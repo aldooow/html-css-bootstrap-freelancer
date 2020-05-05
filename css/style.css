@@ -12,6 +12,7 @@ p {
   font-size: 20px;
 }
 /* end General rulez */
+
 /* components */
 .ms_divider {
   margin: 15px;
@@ -101,7 +102,7 @@ main .ms_portfolio-item img {
 
 /* Footer */
 footer {
-  color: white;
+  color: #fff;
   text-align: center;
 }
 footer .footer_section {
@@ -125,13 +126,12 @@ footer .ms_menu li {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  vertical-align: middle;
-  border: 1px solid white
+  border: 1px solid #fff;
+  line-height: 50px;
 }
 footer .link {
   color: #1abc9c;
 }
-
 /* end Footer */
 
 
