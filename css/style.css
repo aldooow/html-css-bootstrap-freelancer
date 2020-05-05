@@ -1,6 +1,16 @@
 body {
   padding-top: 70px;
 }
+
+/* Header */
+.primary_nav {
+  background: #2d3e50;
+  color: white;
+  line-height: 80px;
+}
+/* end Header */
+
+/* Main */
 .ms_section-primary {
   background: #1abc9c;
   color: #FFF;
@@ -9,10 +19,7 @@ body {
   background: #2c3e50;
 }
 /* components */
-.ms_navbar {
-  background: #2c3e50;
-  height: 70px;
-}
+
 
 .ms_jumbotrom {
   background: #1abc9c;
@@ -29,9 +36,19 @@ body {
   background: #ba4b63;
   height: 300px;
   border-radius: 10px;
+  margin-bottom: 10px;
+}
+/* end portfolio */
+
+/* About */
+.ms_about {
+  padding: 0 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: #fff;
 }
 
-
+/* end About */
 
 @media screen and (min-width: 768px) {
   .ms_jumbotrom {
