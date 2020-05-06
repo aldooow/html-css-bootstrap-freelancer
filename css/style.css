@@ -1,5 +1,6 @@
 /* General rulez */
 body {
+  min-width: 320px;
   padding-top: 70px;
 }
 h1 {
@@ -26,7 +27,7 @@ p {
   height: 4px;
   background: #fff;
   position: relative;
-  top: -10px;
+  vertical-align: middle;
   border-radius: 5px;
 }
 .ms_divider.blue::after,
